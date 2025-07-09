@@ -1,5 +1,5 @@
 # Personal Bio Page Template
-
+![](https://octodex.github.com/images/NUX_Octodex.gif)
 This repository is a template for creating a personal profile page hosted on GitHub Pages. Fork this repository, customize the content, and enable GitHub Pages to showcase your skills and projects.
 
 ## How to Use
