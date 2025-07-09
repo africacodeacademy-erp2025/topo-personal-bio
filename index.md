@@ -1,5 +1,4 @@
 
-<div class="card">
 # My Personal Bio
 
 ## About Me
@@ -44,4 +43,4 @@ Hello! My name is [Topo Anthony Morolong]. I am a participant in the Africa Code
 - [Contact](contact.md)
 
 This is the main landing page for your profile. Customize it to introduce yourself and provide links to other sections.
-</div>
+
