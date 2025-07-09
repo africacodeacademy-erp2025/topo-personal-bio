@@ -15,13 +15,6 @@ Hello! My name is [Topo Anthony Morolong]. I am a participant in the Africa Code
 ### Early Life
 [Describe your early life and how you got interested in software development.]
 ![Alt Text](https://octodex.github.com/nuxtocat/)
-<style>
-  body {
-    background-image: url('https://octodex.github.com/images/steroidtocat.png');
-    background-size: cover;
-    color: #fff;
-  }
-</style>
 
 ### Education and Career
 [Describe your education journey and any relevant work experience.]
