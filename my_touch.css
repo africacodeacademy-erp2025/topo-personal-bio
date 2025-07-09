@@ -1,0 +1,104 @@
+/* === BASE STYLES === */
+body {
+  background-color: #1e1e2f;
+  color: #f8f8f2;
+  font-family: 'Fira Code', 'Segoe UI', monospace;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+/* === HEADINGS === */
+h1, h2, h3 {
+  color: #ff79c6;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.3rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/* === LINKS === */
+a {
+  color: #8be9fd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === IMAGES === */
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  display: block;
+  margin: 1rem auto;
+  max-width: 80%;
+}
+
+/* === BLOCKQUOTES === */
+blockquote {
+  border-left: 4px solid #6272a4;
+  background-color: #282a36;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  color: #ccc;
+  font-style: italic;
+}
+
+/* === CODE BLOCKS === */
+pre {
+  background-color: #282a36;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
+
+code {
+  background-color: #44475a;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Fira Code', monospace;
+}
+
+/* === OCTOCAT BACKGROUND (optional) === */
+body::before {
+  content: "";
+  background-image: url('https://octodex.github.com/images/NUX_Octodex.gif');
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  opacity: 0.07;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  left: 10px;
+  z-index: -1;
+  pointer-events: none;
+  filter: grayscale(80%);
+}
+/* === CARD STYLES ===*/
+
+.card {
+  background: #23243a;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  padding: 2.5rem 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  border: 1px solid #44475a;
+  backdrop-filter: blur(2px);
+}
+
