@@ -1,12 +1,12 @@
 # My Personal Bio
 
 ## About Me
-Hello! My name is [Your Name]. I am a participant in the Africa Code Academy Engineering Residency Program 2024.
+Hello! My name is [Topo Anthony Morolong]. I am a participant in the Africa Code Academy Engineering Residency Program 2025.
 
 ## Background
-- **Name:** [Your Full Name]
-- **Location:** [Your Location]
-- **Education:** [Your Education Background]
+- **Name:** Topo Anthony Morolong
+- **Location:** Gaborone, Botswana
+- **Education:** Currently persuing a degree in Computer Systems Engineering
 - **Skills:** [List of Skills]
 
 ## Journey
@@ -27,7 +27,7 @@ Hello! My name is [Your Name]. I am a participant in the Africa Code Academy Eng
 [Description of the second project]
 
 ## Contact
-- **Email:** [Your Email]
+- **Email:** - _morolongtopo@gmail.com_  
 - **LinkedIn:** [Your LinkedIn Profile]
 - **GitHub:** [Your GitHub Profile]
 
