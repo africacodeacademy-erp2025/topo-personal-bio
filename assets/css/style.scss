@@ -1,0 +1,6 @@
+---
+---
+// This file is used to override the default styles of the Jekyll Dinky theme
+@import "jekyll-theme-dinky";  // Load default Dinky styles
+@import "variables";
+@import "custom";              // Load your dark overrides

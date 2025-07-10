@@ -1,0 +1,244 @@
+// _custom.scss
+
+body {
+  background-color: $bg-dark;
+  color: $text-light;
+  font-family: $font-main;
+  // padding: 2rem; /* REMOVED padding from body */
+  line-height: 1.6;
+
+  &::before {
+    content: "";
+    background-image: url('https://octodex.github.com/images/NUX_Octodex.gif');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    opacity: 0.07;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    z-index: -1;
+    pointer-events: none;
+    filter: grayscale(80%);
+  }
+}
+
+h1, h2, h3 {
+  color: $highlight;
+  border-bottom: 1px solid $button-hover;
+  padding-bottom: 0.3rem;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; }
+h3 { font-size: 1.3rem; }
+
+a {
+  color: $link;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: lighten($link, 10%); // Adjusted hover color for links
+  }
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+  display: block;
+  margin: 1rem auto;
+  max-width: 80%;
+}
+
+pre {
+  background-color: $bg-header;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  color: #f1f1f1;
+  font-size: 0.9rem;
+}
+
+code {
+  background-color: $button-hover;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: $font-main;
+}
+
+blockquote {
+  border-left: 4px solid $text-muted;
+  background-color: $bg-header;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  color: #ccc;
+  font-style: italic;
+}
+
+// === Wrapper Styles ===
+.wrapper {
+  display: flex;
+  flex-direction: column; // Stack on small screens
+  min-height: 100vh; // Ensure wrapper takes full height
+  padding: 2rem; // ADDED padding to wrapper
+
+  @media (min-width: 992px) { // Desktop breakpoint
+    flex-direction: row;
+    justify-content: center; // Center the entire wrapper content
+    align-items: flex-start; // Align items to the top
+    max-width: 1200px; // Limit overall width
+    margin: 0 auto; // Center the wrapper
+  }
+}
+
+// === Header Styles (targeting the <header> element directly) ===
+header { // This targets the <header> element
+  background-color: $bg-header;
+  padding: 2rem;
+  border-bottom: 1px solid $text-muted;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  border-radius: 10px; // Rounded corners for the header
+  flex-shrink: 0; // Prevent it from shrinking
+
+  @media (min-width: 992px) { // ADDED desktop media query
+    width: 280px; // Fixed width for the header/sidebar
+    margin-right: 3rem; // Space between header and main content
+    margin-bottom: 0;
+    position: sticky; // Make it sticky as you scroll
+    top: 2rem; // Stick it 2rem from the top
+    align-self: flex-start; // Align it to the top within the flex container
+  }
+
+  .site-title { // Targeting h1 with class .site-title within header
+    color: $link;
+    font-size: 2.5rem; // Adjusted font size for header title
+    line-height: 1.1;
+    margin-bottom: 0.8rem;
+    border-bottom: none;
+    padding-bottom: 0;
+    word-break: break-word;
+  }
+
+  .site-tagline { // Targeting p with class .site-tagline within header
+    color: $text-light;
+    font-size: 1.1rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  // Styles for the <nav class="main-nav"> inside the header
+  .main-nav ul { // Targeting ul inside main-nav inside header
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0; // Space above and below the nav links
+    display: flex;
+    flex-direction: column; // Stack links vertically
+    align-items: center; // Center links horizontally
+  }
+
+  .main-nav ul li {
+    margin: 0.5rem 0; // Vertical spacing between nav items
+    width: 100%; // Make list item take full width for hover effect
+  }
+
+  .main-nav ul li a {
+    display: block; // Make the entire list item clickable
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: $link;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    white-space: nowrap; // Prevent link text from wrapping
+  }
+
+  .main-nav ul li a:hover {
+    background-color: $button-hover; // Hover effect for nav links
+    color: $text-light;
+    text-decoration: none;
+  }
+
+  /* Maintainer Info within Header (optional) */
+  .maintainer-info { // Targeting maintainer info within header
+    font-size: 0.9rem;
+    color: lighten($text-muted, 10%);
+    margin-top: 2rem; // Space above maintainer info
+    a {
+      color: $link;
+    }
+  }
+
+  .header-footer-info {
+    font-size: 0.8rem; /* Slightly smaller font for secondary info */
+    color: lighten($text-muted, 10%); /* Lighter muted text */
+    margin-top: 2rem; /* Space above this section */
+    border-top: 1px solid $button-hover; /* Separator line */
+    padding-top: 1rem; /* Padding above the text after the border */
+    text-align: left;
+    padding-left: 2rem;
+    a {
+      color: $link;
+    }
+  }
+} // End of header styles
+
+// Button styles
+.buttons {
+  display: inline-flex; /* Changed to inline-flex to align icon and text */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  gap: 0.5rem; /* Space between icon and text */
+  padding: 0.8rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for hover effect */
+  white-space: nowrap;
+
+  &.github {
+    background-color: $text-muted;
+    color: white;
+
+    &:hover {
+      background-color: darken($text-muted, 10%);
+      transform: translateY(-2px);
+    }
+  }
+
+  &:not(.github) {
+    background-color: $highlight;
+    color: $bg-dark;
+
+    &:hover {
+      background-color: #bd93f9;
+      transform: translateY(-2px);
+    }
+  }
+}
+
+/* Main Content Section */
+.card {
+  background: $card-bg;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  padding: 2.5rem 2rem;
+  max-width: 700px;
+  margin: 2rem auto; // Default margin
+  border: 1px solid $button-hover;
+  backdrop-filter: blur(2px);
+  flex-grow: 1;
+
+  @media (min-width: 992px) {
+    margin-top: 2rem; // Align with sticky header top
+    margin-left: 0; // Reset margin auto for desktop
+    margin-right: 0; // Reset margin auto for desktop
+  }
+}
+
+/* REMOVED FOOTER STYLES BLOCK */
