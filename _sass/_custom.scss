@@ -174,17 +174,17 @@ header { // This targets the <header> element
   }
 
   .header-footer-info {
-    font-size: 0.8rem; /* Slightly smaller font for secondary info */
-    color: lighten($text-muted, 10%); /* Lighter muted text */
-    margin-top: 2rem; /* Space above this section */
-    border-top: 1px solid $button-hover; /* Separator line */
-    padding-top: 1rem; /* Padding above the text after the border */
-    text-align: left;
-    padding-left: 2rem;
-    a {
-      color: $link;
-    }
+  font-size: 0.8rem; /* Slightly smaller font for secondary info */
+  color: lighten($text-muted, 10%); /* Lighter muted text */
+  margin-top: 2rem; /* Space above this section */
+  border-top: 1px solid $button-hover; /* Separator line */
+  padding-top: 1rem; /* Padding above the text after the border */
+  text-align: left; // Ensure text is aligned to the left
+  padding-right: 115rem;
+  a {
+    color: $link;
   }
+}
 } // End of header styles
 
 // Button styles
