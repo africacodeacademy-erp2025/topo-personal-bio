@@ -1,7 +1,7 @@
 ---
 layout: defaults
 title: About me
-permalink: /about
+permalink: /topo-personal-bio/about
 ---
 
 I'm an upcoming full stack developer who doesn't build for the hype, I build for clarity, security, and control. Besides being developing I aslo double as a cybersecurity researcher who approaches software like a system to be understood, tested, and hardened. If I'm not breaking and building on a computer, I'm at the basketball court breaking ankle and getting buckets.
