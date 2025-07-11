@@ -1,0 +1,12 @@
+# Ignore Jekyll files
+.bundle
+vendor
+# Ignore Jekyll build artifacts
+_site/  
+
+# Ignore Jekyll configuration files
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+Gemfile.lock
