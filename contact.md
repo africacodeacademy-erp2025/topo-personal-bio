@@ -1,15 +1,18 @@
-# Contact
-
-Provide your contact information here. You can include your email, LinkedIn profile, or any other ways to reach you.
+---
+layout: defaults
+title: contacts
+permalink: /contact
+---
 
 ## Email
 
-<your.email@example.com>
+<topo.morolong@africacodeacademy>,
+<morolongtopo@gmail.com>
 
 ## LinkedIn
 
-[LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+[Topo A. Morolong](https://www.linkedin.com/in/topo-anthony-morolong-19aa18215)
 
 ## GitHub
 
-[GitHub Profile](https://github.com/yourusername)
+[Topo A. Morolong](https://github.com/Topo-Anthony-Morolong)

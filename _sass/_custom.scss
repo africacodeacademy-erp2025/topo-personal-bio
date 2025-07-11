@@ -210,17 +210,22 @@ header { // This targets the <header> element
       transform: translateY(-2px);
     }
   }
-
   &:not(.github) {
-    background-color: $highlight;
-    color: $bg-dark;
+  background-color: transparent;
+  color: $link;
+  border: none;
+  padding: 0.5rem;
+  font-weight: bold;
+
 
     &:hover {
-      background-color: #bd93f9;
-      transform: translateY(-2px);
-    }
+    background-color: rgba(255, 255, 255, 0.05);
+    color: lighten($link, 10%);
+    transform: none;
   }
 }
+}
+
 
 /* Main Content Section */
 .card {
@@ -241,4 +246,5 @@ header { // This targets the <header> element
   }
 }
 
-/* REMOVED FOOTER STYLES BLOCK */
+
+
