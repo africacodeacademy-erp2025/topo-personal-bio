@@ -1,7 +1,7 @@
 ---
 layout: defaults
 title: contacts
-permalink: /contact
+permalink: /topo-personal-bio/contact
 ---
 
 ## Email
