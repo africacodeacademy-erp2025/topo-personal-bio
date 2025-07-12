@@ -36,6 +36,8 @@ _Current_  Bsc (Hons) Computer Systems Engineering
 
 ### Pructicum at Boitekanelo College
 
+![BC logo](https://www.boitekanelo.ac.bw//assets/website/images/logo/logo-white.png)
+
 **IT officer**
 For a period of six months I worked within the ICT Department at Boitekanelo College, where I provided support to both staff and students. My responsibilities included setting up laptops, resetting passwords, configuring printers, and troubleshooting network issues. I gained hands-on experience with enterprise tools such as Active Directory, Microsoft 365, PaperCut, and the Academia student management system.
 

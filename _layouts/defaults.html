@@ -21,15 +21,15 @@
 
         <nav class="main-nav">
           <ul>
-            
-            <li><a href="{{ '/about/' | relative_url }}">About Me</a></li>
-            <li><a href="{{ '/contact/' | relative_url }}">Contacts</a></li>
+            <li><a href="{{ '/' | relative_url }}">Back Ground<hr style=" width: 60%; margin: 0 auto;"></a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About Me<hr style=" width: 60%; margin: 0 auto;"></a></li>
+            <li><a href="{{ '/contact/' | relative_url }}">Contacts<hr style=" width: 60%; margin: 0 auto;"></a></li>
           </ul>
         </nav>
 
           {% if site.github.is_project_page or site.github.is_user_page %}
             <ul>
-              <li><a class="buttons github" href="{{ site.github.repository_url }}">
+              <li><a  href="{{ site.github.repository_url }}">
                   <i class="fab fa-github"></i> View On GitHub
               </a></li>
             </ul>
@@ -57,7 +57,7 @@
       </section>
 
       </div>
-            <footer>
+            <footer class="header-footer-info">
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
   </body>

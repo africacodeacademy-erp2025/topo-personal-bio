@@ -9,10 +9,10 @@ body {
 
   &::before {
     content: "";
-    background-image: url('https://octodex.github.com/images/NUX_Octodex.gif');
+    background-image: url('https://africacodeacademy-erp2025.github.io/crotcash.github.io/images/ACA.webp');
     background-size: 100px;
     background-repeat: no-repeat;
-    background-position: top right;
+    background-position: top left;
     opacity: 0.07;
     position: fixed;
     top: 10px;
@@ -144,6 +144,18 @@ header { // This targets the <header> element
   .main-nav ul li {
     margin: 0.5rem 0; // Vertical spacing between nav items
     width: 100%; // Make list item take full width for hover effect
+     background: none !important;
+ /* background: -moz-linear-gradient(top, #0040af 0%, #001582 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0040af), color-stop(100%, #001582)) !important;
+  background: -webkit-linear-gradient(top, #0040af 0%, #001582 100%) !important;
+  background: -o-linear-gradient(top, #0040af 0%, #001582 100%) !important;
+  background: -ms-linear-gradient(top, #0040af 0%, #001582 100%) !important;
+  background: linear-gradient(to top, #0040af 0%, #001582 100%) !important;*/
+
+  border-radius: 4px;
+  border: none;//1px solid #0D0D0D;
+
+  box-shadow: none;//inset 0px 1px 1px 0 rgba(2, 64, 233, 1) !important;
   }
 
   .main-nav ul li a {
@@ -155,12 +167,23 @@ header { // This targets the <header> element
     color: $link;
     transition: background-color 0.3s ease, color 0.3s ease;
     white-space: nowrap; // Prevent link text from wrapping
+    position: relative;
+
+    
   }
 
-  .main-nav ul li a:hover {
+  .main-nav ul li:hover a:hover {
     background-color: $button-hover; // Hover effect for nav links
     color: $text-light;
     text-decoration: none;
+    background: none !important;
+  /*background: -moz-linear-gradient(top, #0055ff 0%, #0010aa 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0055ff), color-stop(100%, #0010aa)) !important;
+  background: -webkit-linear-gradient(top, #0055ff 0%, #0010aa 100%) !important;
+  background: -o-linear-gradient(top, #0055ff 0%, #0010aa 100%) !important;
+  background: -ms-linear-gradient(top, #0055ff 0%, #0010aa 100%) !important;
+  background: linear-gradient(to top, #0055ff 0%, #0010aa 100%) !important;*/
+
   }
 
   /* Maintainer Info within Header (optional) */
@@ -205,10 +228,10 @@ header { // This targets the <header> element
     background-color: $text-muted;
     color: white;
 
-    &:hover {
+   /* &:hover {
       background-color: darken($text-muted, 10%);
       transform: translateY(-2px);
-    }
+    }*/
   }
   &:not(.github) {
   background-color: transparent;
@@ -218,11 +241,11 @@ header { // This targets the <header> element
   font-weight: bold;
 
 
-    &:hover {
+  /*  &:hover {
     background-color: rgba(255, 255, 255, 0.05);
     color: lighten($link, 10%);
     transform: none;
-  }
+  }*/
 }
 }
 
