@@ -273,7 +273,6 @@ header { // This targets the <header> element
   font-size: 0.8rem; /* Slightly smaller font for secondary info */
   color: lighten($text-muted, 10%); /* Lighter muted text */
   margin-top: 2rem; /* Space above this section */
-  border-top: 1px solid $button-hover; /* Separator line */
   padding-top: 1rem; /* Padding above the text after the border */
   text-align: left; /* Align text to the left */
   a {

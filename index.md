@@ -1,6 +1,5 @@
 ---
 layout: defaults
-title: Topo's Bio
 ---
 
 # Background
@@ -10,8 +9,6 @@ title: Topo's Bio
 - **Education:** About to start my final year in Computer Systems Engineering BAC
 
 Good day to you! I am a resident  developer in the Africa Code Academy Engineering Residency Program 2025.
-
-    i like to break things “Decode. Build. Secure. Repeat.”
 
 ## Journey
 

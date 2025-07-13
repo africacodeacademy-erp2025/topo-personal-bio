@@ -4,3 +4,6 @@ plugins:
 
 baseurl: "/topo-personal-bio"  
 url: "https://africacodeacademy-erp2025.github.io"
+
+title: Topo
+description: “Decode. Build. Secure. Repeat.”
