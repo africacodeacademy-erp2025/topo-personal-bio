@@ -50,7 +50,7 @@ img {
   box-shadow: 0 4px 12px rgba(0,0,0,0.6);
   display: block;
   margin: 1rem auto;
-  max-width: 80%;
+  max-width: 40%;
 }
 
 pre {
@@ -104,6 +104,7 @@ header { // This targets the <header> element
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   border-radius: 10px; // Rounded corners for the header
   flex-shrink: 0; // Prevent it from shrinking
+  position: fixed; // Fix the header position
 
   @media (min-width: 992px) { // ADDED desktop media query
     width: 280px; // Fixed width for the header/sidebar
@@ -203,7 +204,6 @@ header { // This targets the <header> element
   border-top: 1px solid $button-hover; /* Separator line */
   padding-top: 1rem; /* Padding above the text after the border */
   text-align: left; // Ensure text is aligned to the left
-  padding-right: 115rem;
   a {
     color: $link;
   }
@@ -249,7 +249,6 @@ header { // This targets the <header> element
 }
 }
 
-
 /* Main Content Section */
 .card {
   background: $card-bg;
@@ -266,6 +265,19 @@ header { // This targets the <header> element
     margin-top: 2rem; // Align with sticky header top
     margin-left: 0; // Reset margin auto for desktop
     margin-right: 0; // Reset margin auto for desktop
+  }
+}
+
+// === Footer Section Styles ===
+.footer-section {
+  font-size: 0.8rem; /* Slightly smaller font for secondary info */
+  color: lighten($text-muted, 10%); /* Lighter muted text */
+  margin-top: 2rem; /* Space above this section */
+  border-top: 1px solid $button-hover; /* Separator line */
+  padding-top: 1rem; /* Padding above the text after the border */
+  text-align: left; /* Align text to the left */
+  a {
+    color: $link;
   }
 }
 

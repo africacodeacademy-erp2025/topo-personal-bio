@@ -6,8 +6,8 @@ permalink: /contact/
 
 ## Email
 
-<topo.morolong@africacodeacademy>,
-<morolongtopo@gmail.com>
+- <topo.morolong@africacodeacademy>
+- <morolongtopo@gmail.com>
 
 ## LinkedIn
 

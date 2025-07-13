@@ -3,15 +3,13 @@ layout: defaults
 title: Topo's Bio
 ---
 
-# Welcome To My Bio
+# Background
 
 - **Name:** Topo Anthony Morolong
 - **Location:** Gaborone, Botswana
 - **Education:** About to start my final year in Computer Systems Engineering BAC
 
-## Background
-
-Hello! My name is Topo Anthony Morolong. I am a resident  developer in the Africa Code Academy Engineering Residency Program 2025.
+Good day to you! I am a resident  developer in the Africa Code Academy Engineering Residency Program 2025.
 
     i like to break things “Decode. Build. Secure. Repeat.”
 
@@ -34,6 +32,6 @@ For me it started with playing my very first game on a desktop computer at home 
 **Tech stack:** _Jakarta EE servlet, Mysql, Html and css_
 The goal of this project was to creat part of a hospital management system which was appointment booking. The problem observed was long queuing which consumed valuable work hours for people in need of medical attention and availability of doctors, a very scarce human resource. Simply put a doctor would availe a schedule and those in need of medical attention would pick a date and time from that schedule.
 
--[Github repo](https://github.com/Topo-Anthony-Morolong/Appointment-Website)
+- [Github repo](https://github.com/Topo-Anthony-Morolong/Appointment-Website)
 
 ---
